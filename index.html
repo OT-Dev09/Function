@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="text">Welcome to DOM,</h1>
+
+    <!-- Document Object Model DOM is a bridge that connect html to javascript on the browser which allow user to make changes to the code in the terminal, whereby the user input data on the browser without touching the code -->
+
+    <script>
+
+
+        let name = 'bayo'
+        document.write(name)
+
+        let msG = document.getElementById('text')
+
+        msG.innerHTML += " DOM is sweet"
+        msG.style.color = "green"
+
+        let a = 10
+        a += 15
+        console.log(a)
+    </script>
+</body>
+</html>
